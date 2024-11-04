@@ -37,9 +37,8 @@ nav{
 }
 
 main{
-    display: grid;
-    grid-template: 1fr 1fr;
     grid-column: 1 / 4;
+    display: grid;    
     margin: 0;
 }
 
