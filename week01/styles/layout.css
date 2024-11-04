@@ -36,6 +36,13 @@ nav{
     color: #eee;
 }
 
+main{
+    display: grid;
+    grid-template: 1fr 1fr;
+    grid-column: 1 / 4;
+    margin: 0;
+}
+
 .main-content{
     background: rgb(217, 217, 217);
     color: rgb(0, 0, 0);
