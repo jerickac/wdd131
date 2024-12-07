@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="João Erick">
+    <meta name="description" content="An activity on Functions in JavaScript">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <title>WDD - Week 3 Project</title>
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="fortaleza-heading">Fortaleza</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/large-view.webp">
+                <source media="(min-width: 500px)" srcset="images/medium-view.webp">
+                <img src="images/small-view.webp" alt="a photo of the Fortaleza city beach" width="250" height="500">
+            </picture>
+        </div>
+        <div id="data">
+            <h2 class="fortaleza-subheading data">Data</h2>
+            <table class="fortaleza-table data">
+                <tr>
+                    <th>Country:</th>
+                    <td>Brazil</td>
+                </tr>
+                <tr>
+                    <th>State:</th>
+                    <td>Ceará</td>
+                </tr>
+                <tr>
+                    <th>Foundation:</th>
+                    <td>April 13th, 1726</td>
+                </tr>
+                <tr>
+                    <th>Area:</th>
+                    <td>312.353km²</td>
+                </tr>
+                <tr>
+                    <th>Population:</th>
+                    <td>2,428,678</td>
+                </tr>
+                <tr>
+                    <th>Weather:</th>
+                    <td>Tropical wet and dry climate</td>
+                </tr>
+                <tr>
+                    <th>HDI:</th>
+                    <td>0.754 — high</td>
+                </tr>
+            </table>
+        </div>
+        <div id="weather">
+            <h2 class="fortaleza-subheading weather">Weather</h2>
+            <img id="weather-svg" src="images/weather-icon.svg" alt="An icon showing the sun behind a cloud">
+            <table class="fortaleza-table weather">
+                <tr>
+                    <th>Temperature:</th>
+                    <td>30ºC</td>
+                </tr>
+                <tr>
+                    <th>Conditions:</th>
+                    <td>A mix of sun and clouds</td>
+                </tr>
+                <tr>
+                    <th>Wind:</th>
+                    <td>28km/h</td>
+                </tr>
+                <tr>
+                    <th>Wind Chill:</th>
+                    <td>feels 34</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer class="footer-place">
+        <p>
+            @ <span id="currentyear"></span> - João Erick Rabelo - Brazil
+        </p>
+        <p id="lastModified">
+
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+@media screen and (min-width: 1000px) {
+    main {
+        position: relative;
+    }
+    
+    #data, #weather {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.818);
+        max-width: 30%;
+    }
+
+    #data {
+        top: 5%;
+        left: 1%;
+    }
+
+    #weather {
+        bottom: 5%;
+        right: 1%;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    #weather-svg {
+        display: none;
+    }
+
+    .fortaleza-subheading.weather::after {
+        content: " ⛅";
+    }
+}
