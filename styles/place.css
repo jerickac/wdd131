@@ -1,3 +1,9 @@
+:root {
+    --first-color: rgb(39, 39, 147);
+    --second-color: rgb(245, 234, 152);
+}
+
+
 .luckiest-guy-regular {
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
@@ -22,12 +28,12 @@
 }
 
 .fortaleza-heading {
-    border-bottom: 10px solid rgb(245, 234, 152);
+    border-bottom: 10px solid var(--second-color);
 }
 
 .fortaleza-subheading {
-    background-color: rgb(245, 234, 152);
-    color: rgb(39, 39, 147);
+    background-color: var(--second-color);
+    color: var(--first-color);
 }
 
 table {
@@ -46,7 +52,7 @@ td {
 }
 
 .fortaleza-heading, .footer-place {
-    background-color: rgb(39, 39, 147);
+    background-color: var(--first-color);
     color: white;
 }
 
