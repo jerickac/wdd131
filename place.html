@@ -12,11 +12,12 @@
     <title>WDD - Week 3 Project</title>
     <script src="scripts/place.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
-</head>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Luckiest+Guy&display=swap" rel="stylesheet">
 <body>
     <header>
-        <h1 class="fortaleza-heading">Fortaleza</h1>
+        <h1 class="fortaleza-heading luckiest-guy-regular">Fortaleza</h1>
     </header>
     <main>
         <div class="hero">
@@ -27,7 +28,7 @@
             </picture>
         </div>
         <div id="data">
-            <h2 class="fortaleza-subheading data">Data</h2>
+            <h2 class="fortaleza-subheading data boogaloo-regular">Data</h2>
             <table class="fortaleza-table data">
                 <tr>
                     <th>Country:</th>
@@ -60,12 +61,12 @@
             </table>
         </div>
         <div id="weather">
-            <h2 class="fortaleza-subheading weather">Weather</h2>
+            <h2 class="fortaleza-subheading weather boogaloo-regular">Weather</h2>
             <img id="weather-svg" src="images/weather-icon.svg" alt="An icon showing the sun behind a cloud">
             <table class="fortaleza-table weather">
                 <tr>
                     <th>Temperature:</th>
-                    <td>30ºC</td>
+                    <td id="temperature"></td>
                 </tr>
                 <tr>
                     <th>Conditions:</th>
@@ -73,11 +74,11 @@
                 </tr>
                 <tr>
                     <th>Wind:</th>
-                    <td>28km/h</td>
+                    <td id="wind-speed"></td>
                 </tr>
                 <tr>
                     <th>Wind Chill:</th>
-                    <td>feels 34</td>
+                    <td id="wind-chill"></td>
                 </tr>
             </table>
         </div>

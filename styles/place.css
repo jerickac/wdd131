@@ -1,3 +1,16 @@
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .boogaloo-regular {
+    font-family: "Boogaloo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 * {
     margin: 0;
 }
@@ -9,19 +22,18 @@
 }
 
 .fortaleza-heading {
-    background-color: rgb(95, 95, 192);
-    color: white;
+    border-bottom: 10px solid rgb(245, 234, 152);
 }
 
 .fortaleza-subheading {
-    background-color: rgba(95, 95, 192, 0.413);
-    color: black;
+    background-color: rgb(245, 234, 152);
+    color: rgb(39, 39, 147);
 }
 
 table {
     display: grid;
     place-items: center;
-    margin: 10px;
+    /* margin: 100px; */
 }
 
 th {
@@ -33,9 +45,9 @@ td {
     text-align: left;
 }
 
-.footer-place > p {
-    background-color: rgba(95, 95, 192, 0.413);
-    color: black;
+.fortaleza-heading, .footer-place {
+    background-color: rgb(39, 39, 147);
+    color: white;
 }
 
 img {
@@ -44,4 +56,16 @@ img {
     display: block;
     margin-right: auto;
     margin: auto;
+}
+
+#temperature::after {
+    content: " ºC"
+}
+
+#wind-speed::after {
+    content: " km/h"
+}
+
+#wind-chill::after {
+    content: " ºC"
 }
