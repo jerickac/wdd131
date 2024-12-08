@@ -21,7 +21,6 @@ h1 {
 
 .card > p, .card button, footer > p {
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-style:normal;
     font-variation-settings:
@@ -32,7 +31,6 @@ h1 {
 th, td {
     vertical-align:top;
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
     font-style:normal;
     font-variation-settings:
       "wdth" 100;
