@@ -98,7 +98,7 @@ temples.forEach((temple) => {
             <ul>
                 <li>Location: ${temple.location}</li>
                 <li>Dedicated in: ${temple.dedicated}</li>
-                <li>Temple Area: ${temple.area} square feet</li>
+                <li>Temple Area: ${temple.area} ft²</li>
             </ul>
         </div>`;
 
@@ -142,7 +142,7 @@ homeTemples.addEventListener("click", () => {
                 <ul>
                     <li>Location: ${temple.location}</li>
                     <li>Dedicated in: ${temple.dedicated}</li>
-                    <li>Temple Area: ${temple.area} square feet</li>
+                    <li>Temple Area: ${temple.area} ft²</li>
                 </ul>
             </div>`;
         
@@ -177,7 +177,7 @@ oldTemples.addEventListener("click", () => {
                 <ul>
                     <li>Location: ${temple.location}</li>
                     <li>Dedicated in: ${temple.dedicated}</li>
-                    <li>Temple Area: ${temple.area} square feet</li>
+                    <li>Temple Area: ${temple.area} ft²</li>
                 </ul>
             </div>`;
 
@@ -212,7 +212,7 @@ newTemples.addEventListener("click", () => {
                 <ul>
                     <li>Location: ${temple.location}</li>
                     <li>Dedicated in: ${temple.dedicated}</li>
-                    <li>Temple Area: ${temple.area} square feet</li>
+                    <li>Temple Area: ${temple.area} ft²</li>
                 </ul>
             </div>`;
 
@@ -237,7 +237,7 @@ largeTemples.addEventListener("click", () => {
                 <ul>
                     <li>Location: ${temple.location}</li>
                     <li>Dedicated in: ${temple.dedicated}</li>
-                    <li>Temple Area: ${temple.area} square feet</li>
+                    <li>Temple Area: ${temple.area} ft²</li>
                 </ul>
             </div>`;
 
@@ -262,7 +262,7 @@ smallTemples.addEventListener("click", () => {
                 <ul>
                     <li>Location: ${temple.location}</li>
                     <li>Dedicated in: ${temple.dedicated}</li>
-                    <li>Temple Area: ${temple.area} square feet</li>
+                    <li>Temple Area: ${temple.area} ft²</li>
                 </ul>
             </div>`;
 
