@@ -59,7 +59,7 @@ const temples = [
         templeName: "Fortaleza Brazil",
         location: "Fortaleza, Brazil",
         dedicated: "2011, June, 2",
-        area: 3300,
+        area: 36000,
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fortaleza-brazil/400x250/1-Fortaleza-Temple-Photo-2233938.jpg"
     },
@@ -67,14 +67,14 @@ const temples = [
         templeName: "Sapporo Japan",
         location: "Sapporo, Japan",
         dedicated: "2016, August, 21",
-        area: 4504,
+        area: 48480,
         imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sapporo-japan/400x250/sapporo-japan-exterior-night-1945721.jpg"
     },
     {
         templeName: "Salt Lake Temple",
         location: "Salt Lake City, USA",
         dedicated: "1893, April, 6-24",
-        area: 35508,
+        area: 382207,
         imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/400x250/salt-lake-temple-37762.jpg"
     }
 ];
@@ -98,7 +98,7 @@ temples.forEach((temple) => {
             <ul>
                 <li>Location: ${temple.location}</li>
                 <li>Dedicated in: ${temple.dedicated}</li>
-                <li>Temple Area: ${temple.area}</li>
+                <li>Temple Area: ${temple.area} square feet</li>
             </ul>
         </div>`;
 
@@ -142,7 +142,7 @@ homeTemples.addEventListener("click", () => {
                 <ul>
                     <li>Location: ${temple.location}</li>
                     <li>Dedicated in: ${temple.dedicated}</li>
-                    <li>Temple Area: ${temple.area}</li>
+                    <li>Temple Area: ${temple.area} square feet</li>
                 </ul>
             </div>`;
         
@@ -177,7 +177,7 @@ oldTemples.addEventListener("click", () => {
                 <ul>
                     <li>Location: ${temple.location}</li>
                     <li>Dedicated in: ${temple.dedicated}</li>
-                    <li>Temple Area: ${temple.area}</li>
+                    <li>Temple Area: ${temple.area} square feet</li>
                 </ul>
             </div>`;
 
@@ -212,7 +212,7 @@ newTemples.addEventListener("click", () => {
                 <ul>
                     <li>Location: ${temple.location}</li>
                     <li>Dedicated in: ${temple.dedicated}</li>
-                    <li>Temple Area: ${temple.area}</li>
+                    <li>Temple Area: ${temple.area} square feet</li>
                 </ul>
             </div>`;
 
@@ -237,7 +237,7 @@ largeTemples.addEventListener("click", () => {
                 <ul>
                     <li>Location: ${temple.location}</li>
                     <li>Dedicated in: ${temple.dedicated}</li>
-                    <li>Temple Area: ${temple.area}</li>
+                    <li>Temple Area: ${temple.area} square feet</li>
                 </ul>
             </div>`;
 
@@ -262,7 +262,7 @@ smallTemples.addEventListener("click", () => {
                 <ul>
                     <li>Location: ${temple.location}</li>
                     <li>Dedicated in: ${temple.dedicated}</li>
-                    <li>Temple Area: ${temple.area}</li>
+                    <li>Temple Area: ${temple.area} square feet</li>
                 </ul>
             </div>`;
 
