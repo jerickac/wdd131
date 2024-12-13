@@ -12,7 +12,6 @@ body {
 
 nav {
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style:normal;
     font-variation-settings:
@@ -63,7 +62,6 @@ h2 {
     margin: 10px;
     border-radius: 10px;
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
     font-variation-settings:
@@ -76,7 +74,6 @@ h2 {
 
 h1 {
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
     font-variation-settings:
@@ -91,7 +88,6 @@ figcaption {
     text-align: center;
     padding: 10px;
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-style:normal;
     font-variation-settings:
@@ -124,7 +120,6 @@ img {
 
 footer, li{
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-style:normal;
     font-variation-settings:
