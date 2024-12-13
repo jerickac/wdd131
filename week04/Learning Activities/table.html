@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Tables</title>
+    <link rel="stylesheet" href="styles/table.css">
+</head>
+<body>
+    <table>
+        <caption>
+            Table 1: Account Feature Comparison
+        </caption>
+        <thead>
+            <tr>
+                <th colspan="4" id="acme-wildwest-services">ACME Wildwest Services</th>
+            </tr>
+            <tr>
+                <td></td>
+                <th id="basic" headers="acme-wildwest-services">Basic</th>
+                <th id="premium" headers="acme-wildwest-services">Premium</th>
+                <th id="deluxe" headers="acme-wildwest-services">Deluxe</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th id="feature1" headers="acme-wildwest-services">Feature 1</th>
+                <td headers="feature1 basic acme-wildwest-services">✔️</td>
+                <td headers="feature1 premium acme-wildwest-services">✔️</td>
+                <td headers="feature1 deluxe acme-wildwest-services">✔️</td>
+            </tr>
+            <tr>
+                <th id="feature2" headers="acme-wildwest-services">Feature 2</th>
+                <td headers="feature2 basic acme-wildwest-services">❌</td>
+                <td headers="feature2 premium acme-wildwest-services">✔️</td>
+                <td headers="feature2 deluxe acme-wildwest-services">✔️</td>
+            </tr>
+            <tr>
+                <th id="feature3" headers="acme-wildwest-services">Feature 3</th>
+                <td headers="feature3 basic acme-wildwest-services">❌</td>
+                <td headers="feature3 premium acme-wildwest-services">❌</td>
+                <td headers="feature3 deluxe acme-wildwest-services">✔️</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
