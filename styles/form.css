@@ -1,0 +1,150 @@
+/* label, input {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+div {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+} */
+
+label, input[type='date'], select, .submitButton, footer {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div, #date {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* 
+.roboto-black {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: italic;
+} */
+
+h1, footer {
+    background-color: rgb(106, 0, 133);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0;
+    /* margin-bottom: -30px; */
+}
+
+form {
+    background-color: rgba(228, 138, 255);
+    border-radius: 5px;
+    color: black;
+    /* margin: 2rem 0; */
+    margin-top: 10px;  
+    margin-bottom: 10px;  
+}
+
+form, h1, footer {
+    width: 100%;
+    padding: .5rem 2%;
+}
+
+footer {
+    text-decoration: none;
+}
+
+label{
+    display: block;
+    /* padding-top: 1rem; */
+}
+
+div, #date, #userName {
+    display: block;
+    padding-top: 1rem;
+}
+
+input[type='text'],
+input[type='date'],
+select,
+textarea
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+/* Adicionar padding e border para ajustar o layout do date e select */
+* {
+    box-sizing: border-box; /* Garantir que o padding não afete o layout */
+}
+
+
+input[type='radio'],
+input[type='checkbox'] {
+    margin-right: 6px;
+}
+
+input[type='submit'] {
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+#formSpandId {
+    color:blue;
+}
